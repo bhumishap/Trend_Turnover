@@ -1,0 +1,73 @@
+.footer {
+    background-color: #676567;
+    color: white;
+    padding: 40px 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-sections {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 20px;
+    min-width: 200px;
+  }
+  
+  .footer-section h4 {
+    margin-bottom: 20px;
+  }
+  
+  .footer-section p,
+  .footer-section ul,
+  .footer-section li,
+  .footer-section a {
+    color: #bdc3c7;
+    text-decoration: none;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section a:hover {
+    color: white;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-icons a {
+    color: #bdc3c7;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover {
+    color: white;
+  }
+  
+  .copyright {
+    text-align: center;
+    margin-top: 20px; /* Adjust the margin as needed to add space above the copyright text */
+    font-size: 14px; /* Adjust the font size as needed */
+    color: #fffbfb; /* Adjust the color as needed */
+}

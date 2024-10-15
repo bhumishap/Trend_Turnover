@@ -1,0 +1,84 @@
+/* src/pages/shop/Shop.css */
+.shop-page {
+    display: flex;
+    padding: 20px;
+  }
+  
+  .shop-content {
+    display: flex;
+    width: 100%;
+  }
+  
+
+  .shop-items {
+    flex: 1; /* Occupies the remaining width (70%) */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .clothing-item {
+    width: calc(33.333% - 20px); /* Three items per row with gap included */
+    box-sizing: border-box;
+    margin-top: 100px;
+  }
+  
+  .clothing-img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .clothing-title, .clothing-price {
+    margin: 10px 0;
+    color: black;
+    font-family: Amazon Ember;
+  }
+
+  
+/* src/pages/shop/Shop.css */
+/* Custom select container */
+.custom-select {
+    position: relative;
+    display: inline-block;
+    width: 20%; /* Adjusted to occupy 30% of the page width */
+}
+
+/* Custom select dropdown */
+.custom-select select {
+    appearance: none; /* Remove default styling */
+    background-color: #f8f9fa; /* Light gray background */
+    border: 1px solid #ced4da; /* Gray border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Padding inside the dropdown */
+    font-size: 16px; /* Font size */
+    color: #495057; /* Dark gray text color */
+    width: 100%; /* Full width of the container */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+/* Custom select dropdown focus state */
+.custom-select select:focus {
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 0 2px rgba(38, 143, 255, 0.2); /* Light blue shadow */
+}
+
+/* Custom select arrow */
+.custom-select::after {
+    font-size: 16px; /* Size of the arrow */
+    color: #6c757d; /* Gray color for the arrow */
+    position: absolute;
+    top: 50%;
+    right: 15px; /* Space from the right edge */
+    transform: translateY(-50%); /* Center the arrow vertically */
+    pointer-events: none; /* Allow clicking through the arrow */
+}
+
+/* Decrease width of the select options */
+.custom-select select {
+  width: 80%; /* Adjust this value to control the width */
+  padding: 5px; /* Optional: Padding for a nicer look */
+  font-size: 1rem; /* Optional: Adjust font size */
+  border: 1px solid #ccc; /* Optional: Border styling */
+  border-radius: 4px; /* Optional: Rounded corners */
+}

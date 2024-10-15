@@ -1,0 +1,42 @@
+.promo-text {
+    padding: 20px;
+    background-color: #ffffff; /* or any color you prefer */
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box; /* Ensures padding is included in the width */
+    font-family: Graphik, sans-serif; /* Elegant font */
+    font-size: 1.2rem; /* Slightly larger text for emphasis */
+    color: #000000; /* Darker color for better readability */
+    letter-spacing: 1px; /* Adds spacing between letters */
+    line-height: 1.5; /* Better line spacing */
+  }
+  
+.promo-text p {
+    margin: 0; /* Removes default margin for paragraphs */
+    padding: 0; /* Removes default padding */
+}
+
+.promo-text-section {
+  opacity: 0;
+  transform: translateY(70px);
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+.promo-text {
+  font-size: 1.2rem;
+  color: #333;
+  text-align: center;
+  line-height: 1.5;
+}
+
+/* Keyframes for fade-in and slide-up */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

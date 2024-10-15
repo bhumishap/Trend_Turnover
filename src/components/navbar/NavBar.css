@@ -1,0 +1,73 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: white;
+    color: black;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-links {
+    display: flex;
+    justify-content: center;
+    flex: 1; /* Make the links container take up all available space */
+    gap: 1rem;
+}
+
+.navbar-link {
+    color: rgb(24, 24, 24);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.navbar-link:hover {
+    text-decoration: underline;
+    color: #000000; 
+}
+
+.body-content {
+    margin-top: 4rem;
+}
+
+.navbar-logo-image {
+    width: 140px;
+    height: 42px; 
+    object-fit: contain;
+}
+
+.navbar-button {
+    background-color: #D2B48C; /* Light brown color */
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-button:hover {
+    background-color: #b59064;
+    text-decoration: underline;
+}
+
+.pro-icon {
+    margin-right: 10px;
+    margin-left: auto; /* Push the user icon to the left */
+}
+
+.cart-icon {
+    margin-right : 30px;
+}

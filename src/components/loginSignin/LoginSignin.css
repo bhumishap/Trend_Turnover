@@ -1,0 +1,145 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 50px; /* Further reduced top margin */
+    background: #fff;
+    padding: 10px 10px; /* Reduced padding to further decrease height */
+    width: 400px;
+}
+
+
+.login-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.login-text {
+    color: #b59064;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.login-underline {
+    width: 61px;
+    height: 6px;
+    background: #b59064;
+    border-radius: 9px;
+}
+
+.login-inputs {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.login-input {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    width: 400px;
+    height: 60px;
+    background: white;
+    border-radius: 6px;
+    border: gray;
+    display: flex;
+    justify-content: center;
+}
+
+.login-input input {
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: gray;
+    outline: none;
+    color: grey;
+    font-size: 19px;
+    border-radius: 7px;
+}
+
+.login-input input:focus {
+    border-color: #b59064;
+    box-shadow: 0 0 10px #b59064; 
+}
+
+.login-forgot-password {
+    padding-left: 62px;
+    margin-top: 27px;
+    color: grey;
+    font-size: 18px;
+}
+
+.login-forgot-password span {
+    color: #b59064;
+    cursor: pointer;
+}
+
+.login-submit-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px auto;
+    width: 190px;
+}
+
+.login-submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color:#b59064;
+    /* background: #b59064; */
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.login-submit :hover {
+    text-decoration: underline;
+    color: #b59064;
+}
+
+.login-gray {
+    background: white;
+    color: gray;
+    border-radius: 20px;
+}
+
+.btn-sz {
+    border-radius: 30px;
+    padding: 10px;
+    width: 220px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 70;
+
+}
+
+.parent-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+.login-warning {
+    color: red;
+    font-size: 14px;
+    margin: 5px 0;
+    text-align: center;
+    width: 700px;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    text-align: left;
+    margin-left: 10px;
+    width: 270px;
+}

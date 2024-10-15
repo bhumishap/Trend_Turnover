@@ -1,0 +1,77 @@
+.guidelines-container {
+    /* background-color: #faf7f2; Softer off-white for less harsh contrast */
+    border-radius: 10px; /* Slightly more rounded for a smoother look */
+    padding: 1.5rem;
+    width: 1000px; 
+    margin: 2rem auto; /* Center the container */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Slightly stronger shadow for better depth */
+    text-align: justify;
+    border: 1px solid #e0c4a8; /* Add subtle border for structure */
+    line-height: 1.8; /* Improve readability with better line spacing */
+}
+
+.guidelines-container h2 {
+    color: #8b5e34; /* Consistent brown tone */
+    font-size: 1.75rem; /* Make headers slightly larger for better hierarchy */
+    font-family: 'Poppins', sans-serif; /* Maintain consistency with the main font */
+    margin-bottom: 1.5rem;
+    text-align: center; /* Center the headers for a cleaner look */
+    border-bottom: 2px solid #d2a35d; /* Add an underline for emphasis */
+    padding-bottom: 0.5rem;
+}
+
+.guidelines-container p {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    color: #6b5843; /* Softer brown for less visual strain */
+}
+
+.guidelines-container ol, 
+.guidelines-container ul {
+    margin-bottom: 1.5rem;
+    padding-left: 1.75rem; /* Ensure consistent indent */
+}
+
+.guidelines-container ul {
+    list-style-type: disc;
+}
+
+.guidelines-container ol {
+    list-style-type: decimal;
+    margin-left: 1.5rem; /* Ensure the ordered list is aligned well */
+}
+
+.guidelines-container li {
+    margin-bottom: 0.75rem; /* Space between list items for readability */
+}
+
+.guidelines-container code {
+    background-color: #f3e4d9; /* Warmer light background for code */
+    padding: 0.3rem 0.5rem;
+    border-radius: 5px;
+    font-size: 0.95rem; /* Slightly smaller font for code snippets */
+    font-family: 'Courier New', monospace; /* Code-like font */
+    color: #8b4513; /* Dark brown text color for code */
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05); /* Subtle shadow for raised effect */
+}
+
+.guidelines-container a {
+    color: #d2a35d; /* Brownish-yellow for links */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.guidelines-container a:hover {
+    color: #8b5e34; /* Darker brown on hover for emphasis */
+    text-decoration: underline;
+}
+
+/* Improved List Style */
+.guidelines-container ol li::marker {
+    color: #d2a35d; /* Brownish-yellow for list numbers */
+}
+
+.guidelines-container ul li::marker {
+    color: #d2a35d; /* Brownish-yellow for bullet points */
+}

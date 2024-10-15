@@ -1,0 +1,64 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* New Styles for Promo Section and Shop Now Button */
+
+/* Styles for the promo section */
+.promo-section {
+  display: flex;
+  align-items: center;           /* Vertically center the items */
+  justify-content: space-between; /* Space out the items horizontally */
+  padding: 20px;                 /* Add padding around the section */
+  background-color: #f9f9f9;     /* Optional: Add a background color */
+}
+
+/* Styles for the promo text */
+.promo-text {
+  flex: 1;                       /* Allow the text to take up remaining space */
+  margin-right: 20px;            /* Add space between text and button */
+  font-size: 18px;               /* Adjust text size */
+  color: #333;                   /* Text color */
+}
+
+
+/* Styles for the Shop Now button */
+.shop-now-button {
+  padding: 15px 30px;            /* Adjust padding for the button */
+  font-size: 16px;               /* Button text size */
+  background-color: #ff6f61;     /* Button background color */
+  color: #fff;                   /* Button text color */
+  border: none;                  /* Remove default border */
+  border-radius: 5px;            /* Round the corners */
+  cursor: pointer;               /* Change cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+/* Hover effect for the button */
+.shop-now-button:hover {
+  background-color: #e65c50;     /* Darken button on hover */
+}

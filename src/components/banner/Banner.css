@@ -1,0 +1,10 @@
+.promo-section {
+    background-size: cover;          /* Ensure the background covers the element */
+    background-position: center;     /* Center the background image */
+    background-repeat: no-repeat;    /* Prevent repeating the background image */
+    padding: 20px;                  /* Add padding if needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;         /* Center the content within the div */
+    height: 90vh;                   /* Set height to full viewport height */
+}
